@@ -1,6 +1,6 @@
 # Smoke Detector System
 
-An IoT-based Smoke Detector System that detects smoke in the environment and provides real-time notifications. The system uses sensors (e.g., MQ-2 or similar smoke sensors) to monitor air quality and alert users in case of dangerous levels of smoke or fire risk. This project integrates hardware and software to ensure safety in residential or industrial environments.
+An IoT-based Smoke Detector System that detects smoke in the environment and provides real-time notifications. The system uses sensors to monitor air quality and alert users in case of dangerous levels of smoke or fire risk. This project integrates hardware and software to ensure safety in both residential and industrial environments.
 
 ## Features
 
