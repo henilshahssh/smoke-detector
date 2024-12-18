@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<head>
+		<title>Smoke amount saved</title>
+		<style>
+			table, th, td{
+				border: 1px solid black;
+				}
+		</style>
+	</head>
+	
+	<body>
+		<h1>
+			Smoke amounts:
+		</h1>
+		<table>
+			<tr>
+				<th>
+					Smoke ID
+				</th>
+				<th>
+					Smoke Amount
+				</th>
+			</tr>
+			{% for row in data %}
+			<tr>
+				<td>
+					{{ row['smokeId'] }}
+				</td>
+				<td>
+					{{ row['smokeAmount'] }}
+				</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>

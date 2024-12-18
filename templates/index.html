@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+	<head>
+		<title>Smoke alarm detector server</title>
+		<style>
+			a:link{
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1>
+			Turn off the smoke detector alarm:
+		</h1>
+		<button type="button">
+			<a href="/stop">
+				Stop the alarm
+			</a>
+		</button>
+		<br>
+		<h1>
+			<form action="{{ url_for('change') }}" method="post">
+				<label>
+					Change threshold value to: 
+				</label>
+				<input type="number" min="0" name="changeThreshold">
+				<input type="submit" value="Submit">
+			</form>
+		</h1>
+		<h1>
+			<a href="/stored">
+				View
+			</a>
+			 previously recorded smoke detections.
+		</h1>
+		<h1>
+			<a href="/save">
+				Save
+			</a>
+			 new data.
+		</h1>
+	</body>
+</html>
