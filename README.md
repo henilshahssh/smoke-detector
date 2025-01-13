@@ -42,4 +42,4 @@ An IoT-based Smoke Detector System that detects smoke in the environment and pro
 
 <!-- CONTACT -->
 ## Contact
-Henil Shah - [LinkedIn](https://www.linkedin.com/in/ssh-henil) - [Email](mailto:henilshahssh@gmail.com)
+Henil Shah - [LinkedIn](https://www.linkedin.com/in/henilshahssh) - [Email](mailto:henilshahssh@gmail.com)
